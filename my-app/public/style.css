@@ -1,0 +1,36 @@
+h1 {
+  text-align: center;
+}
+.display-result {
+  background-color: white;
+  flex-basis: 400px;
+  height: 50px;
+  padding: 5px;
+}
+.display-result>h1{
+    text-align: end;
+    padding: 0;
+    margin-right: 10px;
+    
+    
+}
+
+.buttons-grid {
+  position: relative;
+  top: 100px;
+  background-color: rebeccapurple;
+  padding: 10px;
+  max-width: 400px;
+  margin: 0 auto;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+button {
+  padding: 10px;
+  width: 80px;
+  font-size: 25px;
+}
